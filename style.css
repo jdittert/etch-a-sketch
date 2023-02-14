@@ -1,0 +1,14 @@
+.canvas {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3em;
+    width: 960px;
+    height: 960;
+}
+
+.pixel {
+    border-style: solid;
+    border-width: 1px;
+    width: 58px;
+    height: 58px;
+}
