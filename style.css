@@ -6,6 +6,11 @@ header, footer {
     margin: 1em;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
 .canvas {
     display: flex;
     flex-wrap: wrap;
@@ -14,6 +19,7 @@ header, footer {
     margin: 3em;
     width: 320px;
     height: 320px;
+    box-shadow: 8px 8px gray;
 }
 
 .pixel {

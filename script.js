@@ -26,8 +26,15 @@ function pencilClick() {
     pixels.forEach(pixel => pixel.addEventListener("mousedown", fillIn));
 }
 
+function clearCanvas() {
+    const pixels = document.querySelectorAll("div.pixel");
+    pixels.forEach(pixel => pixel.classList.remove("filled"));
+}
+
 document.addEventListener("DOMContentLoaded", createCanvas);
 const canvas = document.getElementById("canvas");
 canvas.addEventListener("mouseenter", pencilClick);
 canvas.addEventListener("mousedown", pencilOn);
+const clear = document.getElementById("clear");
+clear.addEventListener("click", clearCanvas);
 
