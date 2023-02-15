@@ -13,7 +13,7 @@ main {
 }
 
 .canvas {
-    display: flex;
+    display: flex;    
     flex-wrap: wrap;
     border-style: solid;
     border-width: 1px;
@@ -21,11 +21,11 @@ main {
     width: 320px;
     height: 320px;
     box-shadow: 8px 8px gray;
+    align-items: stretch;
 }
 
-.pixel {
-    width: 20px;
-    height: 20px;
+.pixel {    
+    background-color: white;
 }
 
 .filled {
